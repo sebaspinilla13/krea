@@ -24,10 +24,10 @@ function Header() {
   return (
     <header className="bg-background/80 shadow-sm sticky top-0 z-10 backdrop-blur-sm">
       <div className="container mx-auto px-4 py-4 flex justify-between items-center">
-        <Image src="/krea-logo.svg" alt="Krea logo" width={100} height={40} />
+        <Image src="/krea-logo-negro.svg" alt="Krea logo" width={100} height={40} />
         <div className="flex items-center space-x-4">
           <span className="text-sm">Powered by:</span>
-          <Image src="/placeholder-logo.svg" alt="Powered by logo" width={100} height={40} />
+          <Image src="/Pygma-logo-negro.svg" alt="Powered by logo" width={100} height={40} />
           <ThemeToggle />
         </div>
       </div>
