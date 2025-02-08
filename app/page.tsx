@@ -23,11 +23,39 @@ export default function LandingPage() {
 function Header() {
   return (
     <header className="bg-background/80 shadow-sm sticky top-0 z-10 backdrop-blur-sm">
-      <div className="container mx-auto px-4 py-4 flex justify-between items-center">
-        <Image src="/krea-logo-negro.svg" alt="Krea logo" width={100} height={40} />
-        <div className="flex items-center space-x-4">
-          <span className="text-sm">Powered by:</span>
-          <Image src="/Pygma-logo-negro.svg" alt="Powered by logo" width={100} height={40} />
+      <div className="container mx-auto px-4 py-2 sm:py-4 flex flex-col sm:flex-row justify-between items-center">
+        <div className="flex items-center mb-2 sm:mb-0">
+          <Image
+            src="/krea-logo-negro.svg"
+            alt="Krea logo"
+            width={80}
+            height={32}
+            className="w-20 sm:w-24 h-auto dark:hidden"
+          />
+          <Image
+            src="/krea-logo-blanco.svg"
+            alt="Krea logo"
+            width={80}
+            height={32}
+            className="w-20 sm:w-24 h-auto hidden dark:block"
+          />
+        </div>
+        <div className="flex items-center space-x-2 sm:space-x-4">
+          <span className="text-xs sm:text-sm">Powered by:</span>
+          <Image
+            src="/Pygma-logo-negro.svg"
+            alt="Powered by logo"
+            width={80}
+            height={32}
+            className="w-20 sm:w-24 h-auto dark:hidden"
+          />
+          <Image
+            src="/Pygma-logo-blanco.svg"
+            alt="Powered by logo"
+            width={80}
+            height={32}
+            className="w-20 sm:w-24 h-auto hidden dark:block"
+          />
           <ThemeToggle />
         </div>
       </div>
