@@ -103,19 +103,19 @@ function Testimonials() {
       cohort: "Cohorte Krea S2",
     },
     {
-      name: "Name 3",
+      name: "Juan Manuel Galeano",
       text: "Lorem ipsum dolor sit amet et delectus accommodare his consul copiosae.",
       cohort: "Cohorte Krea S1",
     },
     {
-      name: "Name 4",
+      name: "Yerferson Peña",
       text: "Lorem ipsum dolor sit amet et delectus accommodare his consul copiosae.",
       cohort: "Cohorte Krea S1",
     },
     {
-      name: "Name 5",
+      name: "Thaymara Bolivar",
       text: "Lorem ipsum dolor sit amet et delectus accommodare his consul copiosae.",
-      cohort: "Cohorte Krea SX",
+      cohort: "Cohorte Krea S1",
     },
   ]
 
