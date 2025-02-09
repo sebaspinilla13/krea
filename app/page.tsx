@@ -201,7 +201,7 @@ function ProblemStatement() {
 
 function SolutionOverview() {
   const carouselItems = [
-    { src: "Kreadores fotos/Kreador #2.svg", alt: "Thaymara Kreadora" },
+    { src: "/Kreador #2.svg", alt: "Thaymara Kreadora" },
     { src: "/placeholder2.svg", alt: "Launch your idea 2" },
     { src: "/placeholder3.svg", alt: "Launch your idea 3" },
   ]
