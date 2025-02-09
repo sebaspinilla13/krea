@@ -15,6 +15,7 @@ export default function LandingPage() {
       <HowWeHelp />
       <WhoWereLookingFor />
       <CallToAction />
+      <Sponsors />
       <Footer />
     </div>
   )
@@ -23,11 +24,39 @@ export default function LandingPage() {
 function Header() {
   return (
     <header className="bg-background/80 shadow-sm sticky top-0 z-10 backdrop-blur-sm">
-      <div className="container mx-auto px-4 py-4 flex justify-between items-center">
-        <Image src="/krea-logo.svg" alt="Krea logo" width={100} height={40} />
-        <div className="flex items-center space-x-4">
-          <span className="text-sm">Powered by:</span>
-          <Image src="/placeholder-logo.svg" alt="Powered by logo" width={100} height={40} />
+      <div className="container mx-auto px-4 py-2 sm:py-4 flex flex-col sm:flex-row justify-between items-center">
+        <div className="flex items-center mb-2 sm:mb-0">
+          <Image
+            src="/krea-logo-negro.svg"
+            alt="Krea logo"
+            width={80}
+            height={32}
+            className="w-20 sm:w-24 h-auto dark:hidden"
+          />
+          <Image
+            src="/krea-logo-blanco.svg"
+            alt="Krea logo"
+            width={80}
+            height={32}
+            className="w-20 sm:w-24 h-auto hidden dark:block"
+          />
+        </div>
+        <div className="flex items-center space-x-2 sm:space-x-4">
+          <span className="text-xs sm:text-sm">Powered by:</span>
+          <Image
+            src="/Pygma-logo-negro.svg"
+            alt="Powered by logo"
+            width={80}
+            height={32}
+            className="w-20 sm:w-24 h-auto dark:hidden"
+          />
+          <Image
+            src="/Pygma-logo-blanco.svg"
+            alt="Powered by logo"
+            width={80}
+            height={32}
+            className="w-20 sm:w-24 h-auto hidden dark:block"
+          />
           <ThemeToggle />
         </div>
       </div>
@@ -410,6 +439,60 @@ function CallToAction() {
         >
           ¡Aplicar ahora!
         </Button>
+      </div>
+    </section>
+  )
+}
+
+function Sponsors() {
+  const sponsors = [
+    {
+      name: "Sponsor 1",
+      logo: "/placeholder-sponsor1.svg",
+      darkLogo: "/placeholder-sponsor1-dark.svg",
+    },
+  ]
+
+  return (
+    <section className="py-12 sm:py-20 bg-background">
+      <div className="container mx-auto px-4">
+        <h2 className="text-2xl sm:text-3xl font-bold text-center mb-4">Sponsors</h2>
+        <p className="text-center text-base sm:text-lg text-muted-foreground mb-12 max-w-2xl mx-auto">
+          We&apos;re proud to be partnered with companies leading the charge in no-code
+        </p>
+
+        {/* Logos grid */}
+        <div className="flex justify-center items-center mb-16">
+          <div className="w-32 h-32 relative">
+            <Image
+              src={sponsors[0].logo || "/placeholder.svg"}
+              alt={sponsors[0].name}
+              layout="fill"
+              objectFit="contain"
+              className="dark:hidden"
+            />
+            <Image
+              src={sponsors[0].darkLogo || "/placeholder.svg"}
+              alt={sponsors[0].name}
+              layout="fill"
+              objectFit="contain"
+              className="hidden dark:block"
+            />
+          </div>
+        </div>
+
+        {/* Partner CTA */}
+        <div className="max-w-4xl mx-auto bg-card rounded-lg p-6 sm:p-8 shadow-lg">
+          <div className="flex flex-col sm:flex-row items-center justify-between gap-4">
+            <div>
+              <h3 className="text-xl sm:text-2xl font-bold mb-2">Want to partner with us?</h3>
+              <p className="text-muted-foreground">Promote your company with the power of community</p>
+            </div>
+            <Button size="lg" className="bg-[#00e6b3] hover:bg-[#00e6b3]/90 text-background w-full sm:w-auto">
+              Find out more
+            </Button>
+          </div>
+        </div>
       </div>
     </section>
   )

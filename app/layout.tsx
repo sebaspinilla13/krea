@@ -7,7 +7,7 @@ import type React from "react"
 const inter = Inter({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
-  title: "Krexx - Lanza tu idea en 2 semanas",
+  title: "Krea - Lanza tu idea en 2 semanas",
   description: "Únete a una comunidad de Kreadores y convierte tus ideas en realidad.",
 }
 
