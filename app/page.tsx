@@ -95,22 +95,22 @@ function Testimonials() {
     {
       name: "Keila Iluquea",
       text: "Lorem ipsum dolor sit amet et delectus accommodare his consul copiosae.",
-      cohort: "Cohorte Krea SX",
+      cohort: "Cohorte Krea S2",
     },
     {
-      name: "Sebastian XX",
+      name: "Sebastian Correa",
       text: "Lorem ipsum dolor sit amet et delectus accommodare his consul copiosae.",
-      cohort: "Cohorte Krea SX",
+      cohort: "Cohorte Krea S2",
     },
     {
       name: "Name 3",
       text: "Lorem ipsum dolor sit amet et delectus accommodare his consul copiosae.",
-      cohort: "Cohorte Krea SX",
+      cohort: "Cohorte Krea S1",
     },
     {
       name: "Name 4",
       text: "Lorem ipsum dolor sit amet et delectus accommodare his consul copiosae.",
-      cohort: "Cohorte Krea SX",
+      cohort: "Cohorte Krea S1",
     },
     {
       name: "Name 5",
