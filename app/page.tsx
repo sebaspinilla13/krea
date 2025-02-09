@@ -243,7 +243,7 @@ function SolutionOverview() {
               {carouselItems.map((item, index) => (
                 <CarouselItem key={index}>
                   <Image
-                    src={item.src || "/placeholder.svg"}
+                    src={item.src || "/kreadora#1.svg"}
                     alt={item.alt}
                     width={500}
                     height={300}
