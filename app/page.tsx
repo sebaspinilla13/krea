@@ -99,7 +99,7 @@ function Testimonials() {
     },
     {
       name: "Sebastian Correa",
-      text: "Lorem ipsum dolor sit amet et delectus accommodare his consul copiosae.",
+      text: "Krea fue clave para XpaceMedia. Herramientas prácticas y apoyo invaluable, especialmente de Sebastián, atento y resolutivo. ¡Transformó mi idea en realidad!",
       cohort: "Cohorte Krea S2",
     },
     {
