@@ -493,9 +493,12 @@ function Sponsors() {
               <h3 className="text-xl sm:text-2xl font-bold mb-2">¿Quieres ser patrocinador?</h3>
               <p className="text-muted-foreground">Promueve tu compañia con el poder de la comunidad</p>
             </div>
-            <Button size="lg" className="bg-[#00e6b3] hover:bg-[#00e6b3]/90 text-background w-full sm:w-auto">
-              Find out more
-            </Button>
+            <Button
+            size="lg"
+            className="bg-primary text-primary-foreground hover:bg-primary/90 transition-colors duration-300"
+            >
+           Más información
+          </Button>
           </div>
         </div>
       </div>
