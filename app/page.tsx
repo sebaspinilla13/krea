@@ -194,7 +194,9 @@ function ProblemStatement() {
             size="lg"
             className="bg-primary text-primary-foreground hover:bg-primary/90 transition-colors duration-300"
           >
+            <Link href="https://bit.ly/40KHWOE" target="_blank" rel="noopener noreferrer">
             ¡Aplicar ahora!
+            </Link>
           </Button>
         </div>
       </div>
@@ -242,7 +244,9 @@ function SolutionOverview() {
             size="lg"
             className="bg-primary text-primary-foreground hover:bg-primary/90 transition-colors duration-300"
           >
+            <Link href="https://bit.ly/40KHWOE" target="_blank" rel="noopener noreferrer">
             ¡Aplicar ahora!
+            </Link>
           </Button>
         </div>
         <div className="md:w-1/2">
@@ -312,7 +316,9 @@ function ProgramBenefits() {
             size="lg"
             className="bg-primary text-primary-foreground hover:bg-primary/90 transition-colors duration-300"
           >
+            <Link href="https://bit.ly/40KHWOE" target="_blank" rel="noopener noreferrer">
             ¡Aplicar ahora!
+            </Link>
           </Button>
         </div>
       </div>
@@ -370,7 +376,9 @@ function HowWeHelp() {
             size="lg"
             className="bg-primary text-primary-foreground hover:bg-primary/90 transition-colors duration-300"
           >
+            <Link href="https://bit.ly/40KHWOE" target="_blank" rel="noopener noreferrer">
             ¡Aplicar ahora!
+            </Link>
           </Button>
         </div>
       </div>
@@ -422,7 +430,9 @@ function WhoWereLookingFor() {
             size="lg"
             className="bg-primary text-primary-foreground hover:bg-primary/90 transition-colors duration-300"
           >
+            <Link href="https://bit.ly/40KHWOE" target="_blank" rel="noopener noreferrer">
             ¡Aplicar ahora!
+            </Link>
           </Button>
         </div>
       </div>
@@ -445,7 +455,9 @@ function CallToAction() {
           size="lg"
           className="bg-white text-primary hover:bg-accent hover:text-accent-foreground transition-colors duration-300"
         >
-          ¡Aplicar ahora!
+          <Link href="https://bit.ly/40KHWOE" target="_blank" rel="noopener noreferrer">
+            ¡Aplicar ahora!
+            </Link>
         </Button>
       </div>
     </section>
@@ -500,8 +512,10 @@ function Sponsors() {
             size="lg"
             className="bg-primary text-primary-foreground hover:bg-primary/90 transition-colors duration-300"
             >
-           Más información
-          </Button>
+              <Link href="https://bit.ly/3EH7G7c" target="_blank" rel="noopener noreferrer">
+            Más información
+            </Link>
+            </Button>
           </div>
         </div>
       </div>
