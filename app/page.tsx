@@ -452,9 +452,9 @@ function CallToAction() {
 function Sponsors() {
   const sponsors = [
     {
-      name: "Sponsor 1",
-      logo: "/placeholder-sponsor1.svg",
-      darkLogo: "/placeholder-sponsor1-dark.svg",
+      name: "Ilustracoder",
+      logo: "/logo-letras.png",
+      darkLogo: "/logo-letras-blanco.png",
     },
   ]
 
@@ -490,8 +490,8 @@ function Sponsors() {
         <div className="max-w-4xl mx-auto bg-card rounded-lg p-6 sm:p-8 shadow-lg">
           <div className="flex flex-col sm:flex-row items-center justify-between gap-4">
             <div>
-              <h3 className="text-xl sm:text-2xl font-bold mb-2">Want to partner with us?</h3>
-              <p className="text-muted-foreground">Promote your company with the power of community</p>
+              <h3 className="text-xl sm:text-2xl font-bold mb-2">¿Quieres ser patrocinador??</h3>
+              <p className="text-muted-foreground">Promueve tu compañia con el poder de la comunidad</p>
             </div>
             <Button size="lg" className="bg-[#00e6b3] hover:bg-[#00e6b3]/90 text-background w-full sm:w-auto">
               Find out more
