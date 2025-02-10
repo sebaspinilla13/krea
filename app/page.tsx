@@ -2,6 +2,7 @@ import Image from "next/image"
 import { Button } from "@/components/ui/button"
 import { Carousel, CarouselContent, CarouselItem, CarouselNext, CarouselPrevious } from "@/components/ui/carousel"
 import { ThemeToggle } from "@/components/theme-toggle"
+import Link from 'next/link';
 
 export default function LandingPage() {
   return (
