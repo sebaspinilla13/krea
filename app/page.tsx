@@ -463,7 +463,7 @@ function Sponsors() {
       <div className="container mx-auto px-4">
         <h2 className="text-2xl sm:text-3xl font-bold text-center mb-4">Nuestros patrocinadores</h2>
         <p className="text-center text-base sm:text-lg text-muted-foreground mb-12 max-w-2xl mx-auto">
-          Estamos orgullos de ser patrocinados por compañias que estan ayudando a facilitar el camino para hacer realidad las ideas que les apasionan a las personas.
+          Estamos orgullos de ser patrocinados por compañias que estan ayudando a facilitar el camino para hacer realidad las ideas que le apasionan a las personas.
         </p>
 
         {/* Logos grid */}
@@ -490,7 +490,7 @@ function Sponsors() {
         <div className="max-w-4xl mx-auto bg-card rounded-lg p-6 sm:p-8 shadow-lg">
           <div className="flex flex-col sm:flex-row items-center justify-between gap-4">
             <div>
-              <h3 className="text-xl sm:text-2xl font-bold mb-2">¿Quieres ser patrocinador??</h3>
+              <h3 className="text-xl sm:text-2xl font-bold mb-2">¿Quieres ser patrocinador?</h3>
               <p className="text-muted-foreground">Promueve tu compañia con el poder de la comunidad</p>
             </div>
             <Button size="lg" className="bg-[#00e6b3] hover:bg-[#00e6b3]/90 text-background w-full sm:w-auto">
