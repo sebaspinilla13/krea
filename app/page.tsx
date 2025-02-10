@@ -26,6 +26,7 @@ function Header() {
   return (
     <header className="bg-background/80 shadow-sm sticky top-0 z-10 backdrop-blur-sm">
       <div className="container mx-auto px-4 py-2 sm:py-4 flex flex-col sm:flex-row justify-between items-center">
+        {/* Logo de Krea */}
         <div className="flex items-center mb-2 sm:mb-0">
           <Image
             src="/krea-logo-negro.svg"
@@ -42,6 +43,8 @@ function Header() {
             className="w-20 sm:w-24 h-auto hidden dark:block"
           />
         </div>
+
+        {/* Powered by y Logo de Pygma */}
         <div className="flex items-center space-x-2 sm:space-x-4">
           <span className="text-xs sm:text-sm">Powered by:</span>
           <Image
@@ -62,8 +65,11 @@ function Header() {
         </div>
       </div>
     </header>
-  )
+  );
 }
+
+export default Header;
+    
 
 function HeroSection() {
   return (
