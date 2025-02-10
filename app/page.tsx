@@ -83,7 +83,7 @@ function HeroSection() {
           size="lg"
           className="bg-primary text-primary-foreground hover:bg-primary/90 transition-colors duration-300"
         >
-          ¡Aplicar ahora!
+          <Link href="https://bit.ly/40KHWOE">¡Aplicar ahora!</Link>
         </Button>
       </div>
     </section>
