@@ -104,17 +104,17 @@ function Testimonials() {
     },
     {
       name: "Juan Manuel Galeano",
-      text: "Lorem ipsum dolor sit amet et delectus accommodare his consul copiosae.",
+      text: "Krea no solo me brindó conocimiento, sino también confianza. Aprendí que lo importante es actuar, incluso en situaciones difíciles.",
       cohort: "Cohorte Krea S1",
     },
     {
       name: "Yerferson Peña",
-      text: "Lorem ipsum dolor sit amet et delectus accommodare his consul copiosae.",
+      text: " El programa me desafió a salir de mi zona de confort y a actuar sin miedo al fracaso.",
       cohort: "Cohorte Krea S1",
     },
     {
       name: "Thaymara Bolivar",
-      text: "Lorem ipsum dolor sit amet et delectus accommodare his consul copiosae.",
+      text: "Lo que más me llevo de Krea es la mentalidad de 'hazlo y ya'. No hubo tiempo para dudas, solo para actuar y entregar. Aprendí a resolver sobre la marcha y a confiar en mi capacidad.",
       cohort: "Cohorte Krea S1",
     },
   ]
