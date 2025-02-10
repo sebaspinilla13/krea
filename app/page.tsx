@@ -67,8 +67,6 @@ function Header() {
     </header>
   );
 }
-
-export default Header;
     
 
 function HeroSection() {
