@@ -24,7 +24,7 @@ export default function LandingPage() {
 
 function Header() {
   return (
-    <header className="bg-background/80 shadow-sm sticky top-0 z-10 backdrop-blur-sm">
+    <header className="bg-background/100 shadow-sm sticky top-0 z-10 backdrop-blur-sm">
       <div className="container mx-auto px-4 py-2 sm:py-4 flex flex-col sm:flex-row justify-between items-center">
         {/* Logo de Krea */}
         <div className="flex items-center mb-2 sm:mb-0">
@@ -67,7 +67,6 @@ function Header() {
     </header>
   );
 }
-    
 
 function HeroSection() {
   return (
