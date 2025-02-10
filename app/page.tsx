@@ -94,7 +94,7 @@ function Testimonials() {
   const testimonials = [
     {
       name: "Keila Iluquea",
-      text: "Lorem ipsum dolor sit amet et delectus accommodare his consul copiosae.",
+      text: "Krea me enseñó a actuar sin dudar. Sin tiempo para pensar en fracasos, solo entregar. ¡Hazlo y ya! Eso me llevo: acción sobre pensamiento.",
       cohort: "Cohorte Krea S2",
     },
     {
